@@ -152,7 +152,41 @@ This project is specifically designed to demonstrate skills relevant to the **QA
 | **Automation Tool** | Python (test_runner.py) |
 | **API Testing Tool** | curl with Postman Collection export |
 | **Version Control** | Git |
-| **Environment Status** | ✅ FULLY OPERATIONAL
+| **Environment Status** | ✅ FULLY OPERATIONAL |
+
+### 6.1 Device Information
+
+| Parameter | Value |
+|-----------|-------|
+| **Device** | Google Pixel 8 Emulator |
+| **Android Version** | Android 17 (API Level 37) |
+| **Device Status** | ✅ Operational |
+| **ADB Connection** | ✅ Established |
+| **UIAutomator** | ✅ Accessibility enabled |
+| **Screen Capture** | ✅ Functional |
+
+### 6.2 Application Version
+
+| Parameter | Value |
+|-----------|-------|
+| **Application** | Sauce Labs My Demo App |
+| **Version** | 2.2.0 (Build 25) |
+| **APK File** | mda-2.2.0-25.apk |
+| **Package Name** | com.saucelabs.mydemoapp.android |
+| **Installation Source** | GitHub Releases (v2.2.0) |
+
+### 6.3 Testing Tools
+
+| Tool | Purpose |
+|------|---------|
+| **Git** | Version control and repository management |
+| **Markdown** | Documentation authoring |
+| **Python + openpyxl** | Excel report generation |
+| **ADB (Android Debug Bridge)** | Device interaction and command execution |
+| **UIAutomator** | UI element inspection |
+| **test_runner.py** | Automated test execution engine |
+| **curl** | API testing execution |
+| **Postman Collection (JSON)** | Portable API test suite |
 
 ---
 
@@ -299,6 +333,90 @@ Real application screenshots were captured during test execution:
 - **3 state snapshots:** App running state, regression state, current state
 
 All screenshots stored in `07-Screenshots/application/` with evidence file references in test_results.json.
+
+#### Representative Evidence — Application Launch
+
+![Application Launch](../07-Screenshots/application/TC-001.png)
+*Evidence: TC-001.png — Application launch / home screen display*
+
+#### Representative Evidence — Login / Authentication
+
+![Login Screen Navigation](../07-Screenshots/application/TC-004-login-screen.png)
+*Evidence: TC-004-login-screen.png — Login screen navigation (captured during TC-004)*
+
+![Login Screen](../07-Screenshots/application/TC-005.png)
+*Evidence: TC-005.png — Login flow screen state (captured during TC-005)*
+
+#### Representative Evidence — Product Catalog
+
+![Product Catalog](../07-Screenshots/application/TC-009.png)
+*Evidence: TC-009.png — Product catalog display (captured during TC-009)*
+
+![Product Listing](../07-Screenshots/application/TC-010.png)
+*Evidence: TC-010.png — Product listing with details (captured during TC-010)*
+
+#### Representative Evidence — Product Details
+
+![Product Details](../07-Screenshots/application/TC-015.png)
+*Evidence: TC-015.png — Product detail view with color selection (captured during TC-015)*
+
+#### Representative Evidence — Cart
+
+![Cart View](../07-Screenshots/application/TC-020.png)
+*Evidence: TC-020.png — Cart view opened (captured during TC-020)*
+
+![Cart Empty State](../07-Screenshots/application/TC-025.png)
+*Evidence: TC-025.png — Cart empty state verified (captured during TC-025)*
+
+#### Representative Evidence — Checkout Flow (Critical Path)
+
+![Checkout — Logged Out](../07-Screenshots/application/TC-026.png)
+*Evidence: TC-026.png — Checkout initiated while logged out (app handled authentication requirement)*
+
+![Checkout — Logged In](../07-Screenshots/application/TC-027.png)
+*Evidence: TC-027.png — Checkout progressed while logged in*
+
+![Shipping Validation](../07-Screenshots/application/TC-028.png)
+*Evidence: TC-028.png — Shipping validation tested*
+
+![Shipping Data Submission](../07-Screenshots/application/TC-029.png)
+*Evidence: TC-029.png — Shipping form submitted*
+
+![Payment Validation](../07-Screenshots/application/TC-030.png)
+*Evidence: TC-030.png — Payment validation tested*
+
+![Payment Data Submission](../07-Screenshots/application/TC-031.png)
+*Evidence: TC-031.png — Payment data submitted*
+
+![Order Review](../07-Screenshots/application/TC-032.png)
+*Evidence: TC-032.png — Order review screen shown*
+
+![Order Submission](../07-Screenshots/application/TC-033.png)
+*Evidence: TC-033.png — Order submission processed*
+
+![Post-Order Navigation](../07-Screenshots/application/TC-034.png)
+*Evidence: TC-034.png — Post-order navigation tested*
+
+#### Representative Evidence — Regression Testing
+
+![Regression — App Launch & Catalog](../07-Screenshots/application/REG-001.png)
+*Evidence: REG-001.png — App launch and catalog display (regression test 1)*
+
+![Regression — Cart Review](../07-Screenshots/application/REG-006.png)
+*Evidence: REG-006.png — Cart review and verification (regression test 6)*
+
+![Regression — Order Completion](../07-Screenshots/application/REG-012.png)
+*Evidence: REG-012.png — Order placement and completion (regression test 12)*
+
+#### Application State Snapshots
+
+![App Running State](../07-Screenshots/application/APP_RUNNING_STATE.png)
+*Evidence: APP_RUNNING_STATE.png — Application running during test execution*
+
+![Regression State](../07-Screenshots/application/REGRESSION_STATE.png)
+*Evidence: REGRESSION_STATE.png — State after regression suite completion*
+
+> **Screenshot Inventory:** All 56 PNG files are mapped to test cases in `07-Screenshots/SCREENSHOT-INDEX.md`.
 
 ### 12.2 Bug Evidence
 
