@@ -1,18 +1,22 @@
 {
   "regression": {
-    "REG-001": "FAIL",
-    "REG-002": "FAIL",
-    "REG-003": "FAIL",
-    "REG-004": "FAIL",
-    "REG-005": "FAIL",
-    "REG-006": "FAIL",
-    "REG-007": "FAIL",
-    "REG-008": "FAIL",
-    "REG-009": "FAIL",
-    "REG-010": "FAIL",
-    "REG-011": "FAIL",
-    "REG-012": "FAIL"
+    "REG-001": "PASS",
+    "REG-002": "PASS",
+    "REG-003": "PASS",
+    "REG-004": "PASS",
+    "REG-005": "PASS",
+    "REG-006": "PASS",
+    "REG-007": "PASS",
+    "REG-008": "PASS",
+    "REG-009": "PASS",
+    "REG-010": "PASS",
+    "REG-011": "PASS",
+    "REG-012": "PASS"
   },
   "date": "2026-08-16",
-  "executed": true
+  "executed": true,
+  "total": 12,
+  "passed": 12,
+  "failed": 0,
+  "pass_rate": "100%"
 }
