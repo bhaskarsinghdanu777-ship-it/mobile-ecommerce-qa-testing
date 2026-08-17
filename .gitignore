@@ -34,8 +34,3 @@ node_modules/
 .env.*
 secrets.*
 
-# Personal files - keep locally, don't upload to GitHub
-interview-preparation.md
-resume-project-entry.md
-regression_results.json
-test_results.json
