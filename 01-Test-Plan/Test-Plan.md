@@ -13,9 +13,7 @@
 
 ## 1. Introduction
 
-This test plan defines the scope, approach, resources, and schedule for manual QA testing of the **Sauce Labs My Demo App** for Android. The application is a demo e-commerce mobile app created by Sauce Labs for testing and demonstration purposes.
-
-This project is designed as a QA portfolio project for a **QA Intern** application at **Noise**, demonstrating competence in manual mobile testing, test case design, bug reporting, regression testing, and API testing.
+This test plan defines the scope, approach, resources, and schedule for manual QA testing of the **Sauce Labs My Demo App** for Android. The application is a demo e-commerce mobile app created by Sauce Labs for testing and demonstration.
 
 ---
 
@@ -47,7 +45,7 @@ This project is designed as a QA portfolio project for a **QA Intern** applicati
 | UI/Usability | Visual consistency, responsive layout, text readability |
 | App Lifecycle | App relaunch, state persistence |
 | Regression Testing | Critical-path smoke suite |
-| API Testing | REST API testing with JSONPlaceholder (supporting skill demonstration) |
+| API Testing | REST API testing with JSONPlaceholder |
 
 ### 3.2 Out of Scope
 
@@ -55,7 +53,7 @@ This project is designed as a QA portfolio project for a **QA Intern** applicati
 |------|--------|
 | SQL/Database Testing | Not required for target role |
 | Test Automation (Selenium/Appium) | Manual testing focus |
-| Performance/Load Testing | Not in scope for intern portfolio |
+| Performance/Load Testing | Not in scope |
 | Security/Penetration Testing | Requires specialized tools and scope |
 | iOS Testing | No iOS environment available |
 | Real Payment Transactions | Safety — demo app only |
@@ -207,13 +205,11 @@ This project is designed as a QA portfolio project for a **QA Intern** applicati
 | Test automation UI element location | Could result in blocked tests | Implement robust element location strategies | ⚠️ PARTIAL (18 blocked due to timing/UI) |
 | App version compatibility | Test cases may need updates | Record exact version; validate assumptions | ✅ RESOLVED (v2.2.0 confirmed) |
 | Demo app limitations | Some features may not work as expected | Document demo-app-specific behaviors | ✅ RESOLVED |
-| No Jira for issue tracking | Cannot demonstrate full workflow | Use Jira-style bug report format | ✅ RESOLVED |
+| No Jira for issue tracking | Use Jira-style bug report format | ✅ RESOLVED |
 
 ---
 
-## 11. Agile Workflow Simulation
-
-> **Note:** This is an Agile workflow simulation for portfolio purposes. The candidate did not participate in a real Agile team for this project.
+## 11. Agile Workflow 
 
 In a real Agile sprint, this QA work would map as follows:
 
@@ -260,7 +256,7 @@ In a real Agile sprint, this QA work would map as follows:
 |------|------|------|--------|
 | QA Lead | Bhaskar Danu | 2026-08-15 | ✅ Test Plan Approved |
 | QA Executor | Bhaskar Danu | 2026-08-16 | ✅ Execution Complete |
-| Project | Mobile E-Commerce QA | 2026-08-16 | ✅ READY FOR PORTFOLIO |
+| Project | Mobile E-Commerce QA | 2026-08-16 | ✅ Completed|
 
 ---
 
