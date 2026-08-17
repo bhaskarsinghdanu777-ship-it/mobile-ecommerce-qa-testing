@@ -6,7 +6,7 @@ A complete, professional QA portfolio project demonstrating manual mobile applic
 
 ## 📋 Overview
 
-This project contains end-to-end QA testing artifacts for the **Sauce Labs My Demo App** for Android — a demo e-commerce mobile application. The project is structured as a practical QA portfolio demonstrating industry-standard testing practices for a **QA Intern** application.
+This project contains end-to-end QA testing artifacts for the **Sauce Labs My Demo App** for Android — a demo e-commerce mobile application. The project is structured as a practical QA portfolio demonstrating industry-standard testing practices for a **QA Intern**.
 
 ---
 
