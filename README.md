@@ -6,7 +6,7 @@ A complete, professional QA portfolio project demonstrating manual mobile applic
 
 ## 📋 Overview
 
-This project contains end-to-end QA testing artifacts for the **Sauce Labs My Demo App** for Android — a demo e-commerce mobile application. The project is structured as a practical QA portfolio demonstrating industry-standard testing practices for a **QA Intern**.
+This project contains end-to-end QA testing artifacts for the **Sauce Labs My Demo App** for Android — a demo e-commerce mobile application.
 
 ---
 
@@ -27,7 +27,7 @@ This project contains end-to-end QA testing artifacts for the **Sauce Labs My De
 
 ## 🎯 Objective
 
-Demonstrate competence in manual QA testing practices aligned with the requirements of a **QA Intern** position, specifically:
+Demonstrate competence in manual QA testing practices aligned with the requirements, specifically:
 
 - Android mobile application testing
 - Test case design and execution
